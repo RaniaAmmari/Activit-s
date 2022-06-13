@@ -1,29 +1,28 @@
 <?php 
-require('monstre.php');
-class Sort {
+// require('monstre.php');
+// class Sort {
   
-    private int $mana;
-    private int $degats;
-    // private int $vie;
-
+//     private int $mana;
+//     private int $degat;
+    
     
      
-     function __construct($mana,$degats) {
-          $this->mana = $mana; 
-          $this->degats = $degats;  
-     }
+//      function __construct($mana,$degat) {
+//           $this->mana = $mana; 
+//           $this->degat = $degat;  
+//      }
   
-    public function attaquer ( Monstre $monstre){
+//     public function attaquer ( Monstre $monstre){
       
-        $dg = $monstre->getVie() - $this->degats;
-        // echo $dg;
-       $monstre->setVie($dg);
-       echo $monstre->getVie();
-    }
-}
-$monstre=new Monstre(5,15,3);
-$sort=new sort(4,6);
-// $monstre=new Monstre(5,10,3);
-// echo $monstre->getvie().PHP_EOL;
-$sort->attaquer($monstre);
+//         $dg = $monstre->getVie() - $this->degat;
+//         // echo $dg;
+//        $monstre->setVie($dg);
+//        echo $monstre->getVie();
+//     }
+// }
+// $monstre=new Monstre(5,20,3);
+// $sort=new sort(4,6);
+// // $monstre=new Monstre(5,10,3);
+// // echo $monstre->getvie().PHP_EOL;
+// $sort->attaquer($monstre);
 ?>
