@@ -2,7 +2,7 @@
      session_start();
 
      if(!isset($_SESSION['logged_user'])){
-         header('Location:'.$rootUrl.'login.php');
+         header('Location:'.$rootUrl.'connexion.php');
      }
 ?>
 <!DOCTYPE html>
