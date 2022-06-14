@@ -1,5 +1,10 @@
 <?php include_once("header.php") ?>
 <?php include('connectDB.php') ?>
+<?php include('utils.php');
+     if(isset($_SESSION['logged_user'])){
+        header('Location:'.$rootUrl.'index.php');
+    }
+ ?>
 <!DOCTYPE html>
 <html lang="en">
     <head>
